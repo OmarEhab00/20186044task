@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Execute Script') {
             steps {
-                dir
+                bat 'dir'
             }
         }
     }
