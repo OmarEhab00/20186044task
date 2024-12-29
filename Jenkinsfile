@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Execute Script') {
             steps {
-                bat 'ls.bat'
+                bat 'dir.bat'
             }
         }
     }
